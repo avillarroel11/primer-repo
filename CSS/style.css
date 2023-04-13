@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Rajdhani:wght@300&family=Roboto:wght@500&display=swap');
+
+/* font-family: 'Lora', serif;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/*APLICO UN RESET*/
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/*MODIFICO MI BARRA NAVEGACION CLASE BOOTSTAP + MI LOGO */
+
+.navbar{
+    background-color: rgb(238, 145, 145);
+}
+
+.offcanvas{
+    background-color: rgb(238, 145, 145);
+}
+
+.offcanvas-title{
+    color:#fff;
+}
+
+
+#logoNav{
+    height:40px;
+    width: auto;
+}
+
+.w-100{
+object-fit: cover;   
+}
+
+.card{
+    border: 0px solid rgb(158, 0, 0)
+}
+
+.card-text{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+#imageContact{
+    object-fit: cover;
+    width: 100%;
+}
+
+
+
+/* LLAMO A MEDIA QUERY PARA RESOLUCION DISP */
+
+@media only screen and (max-width:576px){
+    .carousel-inner{
+        height: 250px;
+        width: 100%;
+    
+    }
+    .card-img-top{
+        border-radius: 10px;
+        width: 100%;
+        height: 150px;
+    }
+
+    .card-title{
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+    }
+  }
+
+@media only screen and (min-width:577px) and (max-width:1024px){
+    .carousel-inner{
+        height: 400px;
+        width: 100%;
+        
+    }
+    .card-img-top{
+        border-radius: 10px;
+        width: 100%;
+        height: 180px;
+    }
+
+    .card-title{
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+   
+}
+
+@media only screen and (min-width:1025px) {
+    .carousel-inner{
+        height: 900px;
+    
+    }
+
+    .card-img-top{
+        border-radius: 20px;
+        width: 100%;
+        height: 300px;
+    }
+
+    .card-title{
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+}
+
+.barraMain{
+    background-color: rgba(36, 36, 36, 0.849)
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Rajdhani', sans-serif ;
+    text-align: center;
+    font-weight: 300;
+}
+
+.btn-primary{
+    color: white;
+    background-color: rgba(238, 145, 145,1);
+    border-color: #fff;
+    border-radius: 0px;
+}
+
+.btn-primary:hover{
+    box-shadow: -16px 13px 0px -7px rgba(233, 92, 92, 0.75);
+    -webkit-box-shadow: -16px 13px 0px -7px rgba(184, 95, 95, 0.527);
+    -moz-box-shadow: -16px 13px 0px -7px rgba(168, 84, 84, 0.445);
+    background-color: rgba(238, 145, 145,1);
+    border-color: rgba(0,0,0,0);
+    border-radius: 10px;
+    transform: all 4s;
+}
+
